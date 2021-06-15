@@ -1,7 +1,22 @@
+/* 1 posicionamiento
+2 modelo caja
+3 tipografia
+4 visuales
+5 otros */
+
 :root {
-    --primary: #000;
+    --bitcoin-orange: #F7931A;
+    --soft-orange: #FFE9D5;
+    --warm-black: #201E1C;
+    --warm-black1: #282623;
+    --off-white: #FAF8F7;
+    --just-white: #FFFFFF;
 }
 
 html {
     font-size: 62.5%;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
 }
