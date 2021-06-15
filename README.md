@@ -1,2 +1,2 @@
 # mobile-first
-diseño creado inicialmente para móvil y luego escalado a otras pantallas
+maquetación de diseño para móvil creado en figma
