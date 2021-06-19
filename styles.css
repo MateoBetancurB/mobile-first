@@ -26,13 +26,20 @@ html {
 /* inicio header */
 
 .header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-image: linear-gradient(to right top, #f7931a, #c56031, #873b32, #452024, #000000);
-    height: 40vh;
+    height: 334px;
+    width: 100vw;
+    min-width: 320px;
+    text-align: center;
 }
 
 .header__img {
-    text-align: center;
-    padding-top: 4rem;
+    align-self: center;
+    margin-top: 4rem;
 }
 
 .header__heading1 {
@@ -40,13 +47,17 @@ html {
     text-align: center;
     font-size: 2.5rem;
     margin-top: 3rem;
+    width: 90%;
+    max-width: 900px;
+    min-width: 288px;
+    height: 90px;
+    align-self: center;
 }
 
 .header__heading3 {
     color: var(--just-white);
     text-align: center;
     font-size: 1.2rem;
-    margin-top: 3rem;
 }
 
 
