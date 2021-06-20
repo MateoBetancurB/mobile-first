@@ -30,7 +30,7 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: linear-gradient(to right top, #f7931a, #c56031, #873b32, #452024, #000000);
+    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
     height: 334px;
     width: 100vw;
     min-width: 320px;
@@ -45,7 +45,9 @@ html {
 .header__heading1 {
     color: var(--just-white);
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2.4rem;
+    line-height: 3rem;
+    font-weight: bold;
     margin-top: 3rem;
     width: 90%;
     max-width: 900px;
@@ -55,9 +57,10 @@ html {
 }
 
 .header__heading3 {
-    color: var(--just-white);
+    color: var(--soft-orange);
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
 }
 
 
