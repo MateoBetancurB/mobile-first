@@ -156,12 +156,15 @@ body {
 
 /*inicio maquetacion de tabla */
 
-.main__exchange--grid {
+.main__exchange--container1 {
     width: 70%;
     min-width: 235px;
-    max-width: 500px;
+    max-width: 300px;
     height: 200px;
     margin: 0 auto;
+}
+
+.main__exchange--grid {
     background-color: #fff;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -175,6 +178,7 @@ body {
 }
 
 .main__exchange--heading3 {
+    text-align: start;
     font-size: 1.4rem;
     margin-bottom: -1px;
     font-weight: bold;
@@ -184,11 +188,10 @@ body {
 
 .main__exchange--date {
     background-color: var(--soft-orange);
-    width: 70%;
     min-width: 235px;
     max-width: 500px;
     height: 30px;
-    width: 80%;
+    width: 60%;
     border-radius: 7px;
     margin: 0 auto;
 }
