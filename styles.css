@@ -99,7 +99,7 @@ html {
 .main {
     width: 100%;
     height: auto;
-    background-color: var(--off-white);
+    background-color: rgba(243, 243, 243, 0.699);
 }
 
 .main__exchange--container {
@@ -110,6 +110,17 @@ html {
     text-align: center;
 }
 
+.main__background--img {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background-image: url(/assets/img/Bitcoin.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 .main__texts {
     width: 90%;
     max-width: 900px;
@@ -117,16 +128,44 @@ html {
     margin: 0 auto;
 }
 
-.main__background--img {
-    width: 200px;
-    height: 200px;
-    margin: 0 auto;
+.main__texts--heading2 {
+    font-size: 2.4rem;
     margin-bottom: 30px;
-    background-image: url(/assets/img/Bitcoin.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    font-weight: bold;
+    line-height: 3rem;
+    color: var(--warm-black);
 }
+
+.main__texts--heading2::first-letter {
+    font-size: 3rem;
+}
+
+.main__texts--paragraph {
+    margin-bottom: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    color: #757575;
+}
+
+
+/*inicio maquetacion de tabla */
+
+.main__exchange--grid {
+    width: 50%;
+    min-width: 288px;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 7px;
+}
+
+
+/* fin maquetacion de tabla */
 
 
 /* fin main */
