@@ -22,6 +22,10 @@ html {
     font-family: 'Noto Sans JP', sans-serif;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 
 /* inicio header */
 
@@ -153,9 +157,10 @@ html {
 /*inicio maquetacion de tabla */
 
 .main__exchange--grid {
-    width: 50%;
-    min-width: 288px;
-    max-width: 900px;
+    width: 70%;
+    min-width: 235px;
+    max-width: 500px;
+    height: 200px;
     margin: 0 auto;
     background-color: #fff;
     display: grid;
@@ -171,15 +176,17 @@ html {
 
 .main__exchange--heading3 {
     font-size: 1.4rem;
-    margin-top: 50px;
-    position: absolute;
-    top: 800px;
-    left: 25px;
+    margin-bottom: -1px;
+    font-weight: bold;
+    line-height: 2.3rem;
     color: var(--bitcoin-orange);
 }
 
 .main__exchange--date {
     background-color: var(--soft-orange);
+    width: 70%;
+    min-width: 235px;
+    max-width: 500px;
     height: 30px;
     width: 80%;
     border-radius: 7px;
@@ -188,6 +195,9 @@ html {
 
 .main__exchange--date p {
     line-height: 30px;
+}
+
+.main__exchange--date span {
     font-weight: bold;
 }
 
