@@ -183,10 +183,15 @@ body {
     color: var(--warm-black);
 }
 
+.main__exchange--prices img {
+    display: inline-block;
+    margin-left: 10px;
+}
+
 .main__exchange--heading3 {
     text-align: start;
     font-size: 1.4rem;
-    margin-bottom: -1px;
+    margin-bottom: 10px;
     font-weight: bold;
     line-height: 2.3rem;
     color: var(--bitcoin-orange);
