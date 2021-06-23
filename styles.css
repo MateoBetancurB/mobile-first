@@ -241,11 +241,14 @@ body {
 
 .section2__text--heading2 {
     padding: 0 30px 0 30px;
+    margin-bottom: 0;
 }
 
 .section2__text--paragraph {
     color: var(--gray-color);
     font-size: 1.4rem;
+    margin-top: 35px;
+    margin-bottom: 35px;
 }
 
 .cards {
@@ -253,6 +256,20 @@ body {
     height: 200px;
     background-color: #2c2b28ab;
     margin: 0 auto;
+    margin-bottom: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 7px;
+    padding: 20px;
+}
+
+.cards__heading3 {
+    color: var(--just-white);
+    font-size: 1.8rem;
+}
+
+.cards__paragraph {
+    color: var(--gray-color);
+    font-size: 1.4rem;
 }
 
 
