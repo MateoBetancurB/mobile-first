@@ -137,7 +137,7 @@ body {
     font-size: 2.4rem;
     margin-bottom: 30px;
     font-weight: bold;
-    line-height: 3rem;
+    line-height: 35px;
     color: var(--warm-black);
 }
 
@@ -229,7 +229,6 @@ body {
     padding: 0px 0px 40px 0px;
     margin: 0 auto;
     height: auto;
-    /* height: 112rem; */
 }
 
 .section2__img {
@@ -239,15 +238,20 @@ body {
 }
 
 .section2__text {
+    width: 100%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
     text-align: center;
     color: #fff;
-    padding-top: 40px;
-    font-size: 1.5rem;
+    padding-top: 50px;
 }
 
 .section2__text--heading2 {
     padding: 0 30px 0 30px;
     margin-bottom: 0;
+    font-size: 2.4rem;
+    line-height: 35px;
 }
 
 .section2__text--paragraph {
@@ -258,11 +262,14 @@ body {
 }
 
 .cards {
-    width: 80%;
+    width: 90%;
+    min-width: 288px;
+    max-width: 450px;
     height: 200px;
     background-color: #2c2b28ab;
-    margin: 0 auto;
-    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 7px;
     padding: 20px;
