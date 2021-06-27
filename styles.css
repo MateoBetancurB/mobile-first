@@ -291,12 +291,14 @@ body {
 
 /* inicio section3 */
 
-.section3__container {
+.section3__img--container {
     width: 100%;
-    background-image: url(/assets/img/bitcoinbaby2x.png);
+    min-width: 320px;
+    height: 50vh;
+    background-image: url(/assets/img/bitcoinbaby2x.jpg);
+    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-size: 100%;
-    height: 39rem;
 }
 
 .section3__heading2 {
