@@ -315,4 +315,28 @@ body {
 /* fin section3 */
 
 
+/* inicio section 4 */
+
+.section4__container {
+    width: 100%;
+    min-width: 320px;
+}
+
+.section4__heading2 {
+    text-align: center;
+    font-size: 2.4rem;
+}
+
+.section4__paragraph {
+    text-align: center;
+    margin: 0 auto;
+    width: 90%;
+    color: var(--gray-color);
+    font-size: 1.4rem;
+}
+
+
+/* fin section 4 */
+
+
 /* fin main */
