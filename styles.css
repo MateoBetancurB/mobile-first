@@ -320,6 +320,7 @@ body {
 .section4__container {
     width: 100%;
     min-width: 320px;
+    padding-top: 40px;
 }
 
 .section4__heading2 {
@@ -333,6 +334,27 @@ body {
     width: 90%;
     color: var(--gray-color);
     font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.section4__container--card {
+    width: 50%;
+    height: 25vh;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.section4__card--heading3 {
+    position: absolute;
+    background-color: var(--bitcoin-orange);
+    color: var(--just-white);
+    border-radius: 7px;
+    padding: 7px;
+    top: -25px;
+    left: calc(50% - 50px);
 }
 
 
