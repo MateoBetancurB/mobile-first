@@ -339,7 +339,7 @@ body {
 }
 
 .section4__container--card {
-    width: 50%;
+    width: 65%;
     height: 25vh;
     margin: 0 auto;
     position: relative;
@@ -350,11 +350,33 @@ body {
 .section4__card--heading3 {
     position: absolute;
     background-color: var(--bitcoin-orange);
+    font-size: 1.2rem;
     color: var(--just-white);
     border-radius: 7px;
     padding: 7px;
     top: -25px;
     left: calc(50% - 50px);
+}
+
+.section4__card--paragraph {
+    font-size: 1.2rem;
+    padding-top: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.section4__card--price {
+    text-align: center;
+    font-size: 5rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.section4__card--price span {
+    font-size: 1.5rem;
+    position: absolute;
+    top: 60px;
+    left: calc(50% - 45px);
 }
 
 
