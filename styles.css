@@ -19,6 +19,7 @@
 }
 
 html {
+    scroll-behavior: smooth;
     font-size: 62.5%;
     font-family: 'Noto Sans JP', sans-serif;
 }
@@ -340,7 +341,8 @@ body {
 
 .section4__container--card {
     width: 65%;
-    height: 25vh;
+    max-width: 425px;
+    height: 250px;
     margin: 0 auto;
     position: relative;
     border-radius: 7px;
@@ -370,13 +372,50 @@ body {
     font-size: 5rem;
     font-weight: bold;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-.section4__card--price span {
+.section4__card--price sup {
     font-size: 1.5rem;
     position: absolute;
     top: 60px;
     left: calc(50% - 45px);
+}
+
+.section4__card--anuncio {
+    color: var(--gray-color);
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.section4__container--button {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.section4__card--button {
+    position: relative;
+    width: 80%;
+    display: inline-block;
+    background-color: #e7e7e7b9;
+    padding: 15px;
+    margin: 0 auto;
+    margin-top: 15px;
+    border: 2px solid var(--bitcoin-orange);
+    text-decoration: none;
+    color: var(--warm-black);
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: start;
+}
+
+.section4__card--button img {
+    position: absolute;
+    top: 10px;
+    margin-left: 30px;
 }
 
 
