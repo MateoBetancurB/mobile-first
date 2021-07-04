@@ -4,3 +4,16 @@
     width: 930px;
     margin: 0 auto;
 }
+
+.desktop__container--cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 850px;
+    margin: 0 auto;
+}
+
+.section4__card--price sup {
+    position: absolute;
+    top: 75px;
+    left: calc(50% - 45px);
+}
